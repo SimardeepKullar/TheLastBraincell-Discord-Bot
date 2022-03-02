@@ -8,28 +8,40 @@ The bot is able to many functions which are:
 
 $commands                                  
   - This is the help command.                           
-$hello        
+
+$hello
   - A greeting.                                         
+
 $mention name num
   - Pings the person a number of times.
-$joke                                                 
+
+$joke
   - Get a joke.    
-$randnum min max                                     
+
+$randnum min max
   - Random number generator.
-$coinflip                                             
+
+$coinflip
   - Flip a coin.                                        
+
 $randquote
   - Random anime quote generator.
-$wordle                                               
+
+$wordle
   - Generate a new wordle.  
-$guess word                                           
+
+$guess word
   - After generating a new wordle guess the word.
+
 $giveup
   - Display the answer to the wordle.
+
 $wordDef
   - Get a definition of the wordle word.
-$animequote anime_name                           
+
+$animequote anime_name
   - Generates a quote from that anime.   
+
 $charquote anime_character
   - Generates a quote from that character.
 
