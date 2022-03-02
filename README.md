@@ -6,18 +6,18 @@ A friendly bot, that helps provide fun interactive games and functions.
 
 The bot is able to many functions which are:
 
-  $commands - This is the help command.                           
-  $hello - A greeting.                                         
+  $commands - This is the help command.
+  $hello - A greeting.
   $mention name num - Pings the person a number of times.
-  $joke - Get a joke.    
+  $joke - Get a joke.
   $randnum min max - Random number generator.
-  $coinflip - Flip a coin.                                        
+  $coinflip - Flip a coin.
   $randquote - Random anime quote generator.
-  $wordle - Generate a new wordle.  
+  $wordle - Generate a new wordle.
   $guess word - After generating a new wordle guess the word.
   $giveup - Display the answer to the wordle.
   $wordDef - Get a definition of the wordle word.
-  $animequote anime_name - Generates a quote from that anime.   
+  $animequote anime_name - Generates a quote from that anime.
   $charquote anime_character - Generates a quote from that character.
 
 The bot is also able to detect if a user is spamming and send a message to tell them to stop spamming.
