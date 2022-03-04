@@ -106,10 +106,10 @@ def checkWord(guess):
 async def wordle(ctx):
   randomWord()
   print("The word: " + answer)
-  await ctx.send("Aight I got a word now start guessing with ``$guess guess``")
+  await ctx.send("Aight I got a word now start guessing with ``$g guess``")
   
 @client.command()
-async def guess(ctx, msg):
+async def g(ctx, msg):
   box = ':negative_squared_cross_mark:'
   if msg.lower() == answer:
     await ctx.send(box + " " + box + " " + box + " " + box + " " + box)
@@ -221,7 +221,7 @@ async def commands(ctx):
 
   embed.add_field(name = "$wordle", value = "Generate a new wordle.")
 
-  embed.add_field(name = "$guess *word*", value = "After generating a new wordle guess the word.")
+  embed.add_field(name = "$g *word*", value = "After generating a new wordle guess the word.")
 
   embed.add_field(name = "$giveup", value = "Display the answer to the wordle.")
   
